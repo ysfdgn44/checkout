@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-left: 2rem;
+}
+header {
+  text-align: center;
+  padding-top: 1rem;
+}
+h4 {
+  margin-top: 4rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+form label {
+  color: black;
+  opacity: 0.7;
+}
+i {
+  opacity: 0.6;
+}
+#email {
+  position: absolute;
+}
+.fa-envelope {
+  position: relative;
+}
+#phone {
+  position: absolute;
+}
+.fa-phone {
+  position: relative;
+}
+#fullname {
+  position: absolute;
+}
+.fa-user {
+  position: relative;
+}
+#address {
+  position: absolute;
+}
+.fa-house-user {
+  position: relative;
+}
+#city {
+  position: absolute;
+}
+.fa-city {
+  position: relative;
+}
+#country {
+  position: absolute;
+  width: 7rem;
+  text-align: end;
+}
+.fa-earth-europe {
+  position: relative;
+  left: 0.2rem;
+  top: 0.1rem;
+}
+#postcode {
+  position: absolute;
+}
+.fa-envelopes-bulk {
+  position: relative;
+}
+.continue {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  margin: 5px auto;
+}
+
+.bag {
+  display: flex;
+  gap: 1rem;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  color: orange;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.price span {
+  text-decoration: line-through;
+  color: black;
+}
+.calc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2rem; */
+  gap: 1rem;
+  border: 1px solid rgb(177, 173, 173);
+  border-radius: 3px;
+}
+.calc span {
+  background-color: rgba(197, 186, 186, 0.158);
+  /* opacity: 0.3; */
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+.shoes {
+  display: flex;
+  gap: 1rem;
+}
+.hour {
+  display: flex;
+  flex-direction: colum;
+  gap: 1rem;
+}
+input {
+  width: 15rem;
+}
+div {
+  margin: 0.5rem;
+}
+.main {
+  display: flex;
+  /* border: 1px solid yellow; */
+}
+.form {
+  /* border: 1px solid red; */
+  flex: 1;
+}
+.button {
+  flex: 1;
+  /* border: 1px solid blue; */
+  text-align: left;
+  margin-right: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+}
+.bg {
+  margin-top: 4rem;
+  background-color: rgb(231, 226, 226);
+  display: inline;
+  border-radius: 15px;
+}
+img {
+  width: 100px;
+  /* border: 1px solid brown; */
+  border-radius: 10px;
+}
+.check {
+  text-align: left;
+  /* border: 1px solid red; */
+}
+#check {
+  width: 10px;
+}
+label {
+  text-indent: 0;
+}
+.remove {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  margin-top: 0.1rem;
+  padding: 0.2rem;
+  border-radius: 3px;
+}
